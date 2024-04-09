@@ -168,6 +168,12 @@
     "new": false
   },
   {
+    "name": "Bacon May Die",
+    "image": "splash.png",
+    "url": "bacon-may-die",
+    "new": false
+  },
+  {
     "name": "Bad Ice Cream",
     "image": "bad-ice-cream.png",
     "url": "bad-ice-cream",
