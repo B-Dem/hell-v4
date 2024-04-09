@@ -282,6 +282,12 @@
     "new": false
   },
   {
+    "name": "Bomb it",
+    "image": "bomb-it-7.png",
+    "url": "bomb-it",
+    "new": false
+  },
+  {
     "name": "Boxhead 2 Play",
     "image": "boxhead2play.jpg",
     "url": "boxhead2play",
