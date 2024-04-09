@@ -154,7 +154,7 @@ if (window.location.pathname === "/") {
   window.onload = updateText;
 }
 
-const originalTitle = "Lunaar";
+const originalTitle = "Hell V4";
 const favicon = document.querySelector("#favicon").getAttribute("href");
 
 function changeTabCloak(title, favicon) {
