@@ -71,7 +71,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
     const gameUrl = urlParams.get("game");
-    const serverUrl1 = "https://he1l.netlify.app/";
+    const serverUrl1 = "https://hegamell.vercel.app/";
     fetch("/games.json")
       .then((response) => response.json())
       .then((data) => {
@@ -80,7 +80,7 @@
         document.title = `${gameData.name} | Lunaar`;
         document.getElementById("gamename").innerText = gameData.name;
         document.getElementById("favicon").href = gameData.image;
-        document.getElementById("gameIframe").src = `${serverUrl1}/games/${gameUrl}/`;
+        document.getElementById("gameIframe").src = `${serverUrl1}/${gameUrl}/`;
       })
       .catch((error) => console.error("Error fetching game data:", error));
   });
